@@ -23,7 +23,7 @@ matrix:
 
 before_build:
   - SET PATH=%JAVA_HOME%;%PATH%
-  - git clone --depth=1 https://bitbucket.org/omarbelkhodja/java-cef.git
+  - git clone --depth=1 https://bitbucket.org/omarbelkhodja/java-cef.git  c:\projects\java-cef\src
   #- git clone --depth=1 https://bitbucket.org/chromiumembedded/java-cef.git c:\projects\java-cef\src
   #- git clone --depth=1 https://bitbucket.org/guusdk/java-cef.git c:\projects\java-cef\src
   - echo "Running cmake..."
